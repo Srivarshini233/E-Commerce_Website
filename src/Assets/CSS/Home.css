@@ -1,0 +1,40 @@
+/* CSS styles for the home page */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .featured-products, .popular-categories {
+    margin-bottom: 40px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,15 @@
+package joint.joint.repository;
+
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import org.springframework.stereotype.Repository;
+
+import joint.joint.Entity.EmpPersonalEntity;
+
+
+@Repository
+public interface EmpPersonalRepo extends JpaRepository<EmpPersonalEntity,Integer>{
+  
+}
